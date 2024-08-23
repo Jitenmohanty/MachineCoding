@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display:flex;
+  gap:5px;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.box{
+  border: 5px solid rgb(145, 240, 145);
+  min-height: 15vw;
+  width:25vw;
+  display: flex;
+  flex-direction:column;
+  gap:5px
+}
+.inner{
+  display:flex;
+  flex-direction: column;
+  background-color:rgba(216, 208, 208, 0.333);
+  width: 100%;
+}
